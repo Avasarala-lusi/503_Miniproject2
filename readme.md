@@ -31,3 +31,14 @@ This project consists of two main components: a high-performance ETL pipeline to
 * Generates valid PostgreSQL syntax based on the specific schema.
 
 * Executes the query and displays results in a table.
+
+### Steps to run
+1. Checkout repo git clone
+2. Rename sample.env to .env and fill in the information
+3. Create a new python environment `python -mvenv .venv`
+4. Activate environment `source .venv\bin\activate`
+5. Install packages `pip install -r requirements.txt`
+6. Generate password python generate_password.py
+7. Run database test python test_render_database.py
+8. Populate database `python populate_db.py`
+9. Run Streamlit app `streamlit run streamlit_app.py`

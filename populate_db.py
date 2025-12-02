@@ -3,7 +3,6 @@ import sqlite3
 import time
 from psycopg2.extras import execute_values
 import bcrypt
-from dotenv import load_dotenv
 import streamlit as st
 
 

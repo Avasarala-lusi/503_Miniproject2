@@ -170,6 +170,7 @@ Requirements:
 5. Use proper date/time functions for TIMESTAMP columns
 6. Make sure the query is syntactically correct for PostgreSQL
 7. Add helpful column aliases using AS
+8. Context: This database contains historical data ranging from 2012 to 2016. Do not assume queries are for the current year.
 
 Generate the SQL query:"""
 

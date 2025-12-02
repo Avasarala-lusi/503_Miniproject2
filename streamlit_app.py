@@ -171,6 +171,8 @@ Requirements:
 6. Make sure the query is syntactically correct for PostgreSQL
 7. Add helpful column aliases using AS
 8. Context: This database contains historical data ranging from 2012 to 2016. Do not assume queries are for the current year.
+    * If a user asks for a month/day without a year (e.g., "in January"), select that month across ALL years using EXTRACT.
+    * Do not hardcode a specific year unless explicitly asked.
 
 Generate the SQL query:"""
 
